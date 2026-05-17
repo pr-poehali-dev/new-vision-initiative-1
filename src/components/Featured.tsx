@@ -9,13 +9,26 @@ export default function Featured() {
         />
       </div>
       <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
-        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Функции, которые не стоят на месте</h3>
+        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Наш подход</h3>
         <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight">
-          Не просто список возможностей — живые, дышащие акценты. Каждая функция адаптируется к движению, контексту и настроению,
-          оживляя продукт с первого взгляда.
+          Мы не даём универсальных советов — мы глубоко погружаемся в ваш бизнес, выявляем точки роста и разрабатываем стратегию, которая работает именно для вас.
         </p>
+        <div className="flex flex-col gap-3 mb-8">
+          <div className="flex items-start gap-3">
+            <span className="text-neutral-400 text-sm mt-1">01</span>
+            <p className="text-neutral-700">Стратегическое планирование и постановка целей</p>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="text-neutral-400 text-sm mt-1">02</span>
+            <p className="text-neutral-700">Оптимизация бизнес-процессов и операций</p>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="text-neutral-400 text-sm mt-1">03</span>
+            <p className="text-neutral-700">Управление изменениями и трансформация</p>
+          </div>
+        </div>
         <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
-          Подробнее
+          Узнать больше
         </button>
       </div>
     </div>
