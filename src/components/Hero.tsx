@@ -27,9 +27,7 @@ export default function Hero() {
 
       <div className="relative z-10 text-center text-white px-6">
         <p className="text-sm uppercase tracking-widest mb-4 opacity-80">Консалтинг & Управление</p>
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          РОСТ
-        </h1>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 text-[#670909]">Группа Компаний Конкорд</h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90">
           Стратегические решения для вашего бизнеса. Помогаем руководителям и собственникам выйти на новый уровень.
         </p>
